@@ -1,0 +1,564 @@
+body {}
+
+
+header {}
+
+nav {}
+
+.entete  {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 61px;
+    transition: 0.6s ease;
+}
+
+.portfolio{
+    display: flex;
+    margin-left: 70px;
+    font-size: 24px;
+    margin-top: -11px;
+}
+
+.portfolio .port {
+    color: red;
+}
+
+.portfolio .folio {
+    color: black;
+}
+
+.nav_home {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    transition: 0,6s ease;
+}
+
+.nav_home a {
+    text-decoration: none;
+}
+
+.nav_home a:hover {
+    color: red ! important;
+
+}
+
+.nav_home .home {
+    color: red;
+    margin-left: -143px;
+
+}
+
+.nav_home .page1 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+    margin-left: -98px;
+}
+
+.nav_home .page2 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+
+.nav_home .page3 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+
+.nav_home .page4 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+
+.nav_home .page5 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+
+
+
+.nav_home .contract {
+    color: white;
+    padding: 14px 37px;
+    background-color: red;
+    margin-top: 2px;
+    border-radius: 16px;
+    margin-right: 87px;
+}
+
+.section1 {
+    background-color: #EDF5FE;
+    width: 100%;
+    height: 825px;
+    margin-top: -30px;
+
+}
+
+.section1 .image1 {
+    width: 678px;
+    height: 678px;
+    margin-left: 750px;
+    position: absolute;
+    margin-top: 115px;
+}
+
+.section1 .image2 {
+    width: 624px;
+    height: 624px;
+    margin-left: 779px;
+    margin-top: 144px;
+    position: absolute;
+
+}
+
+.section1 .image3 {
+    width: 560px;
+    height: 560px;
+    margin-left: 812px;
+    position: absolute;
+    margin-top: 182px;
+
+}
+
+.section1 .image4 {
+    width: 582px;
+    height: 793px;
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 32px;
+    z-index: 1;
+}
+
+
+.grandtitre {
+    width: 70%;
+    margin: auto;
+}
+
+.grandtitre h1 {
+    font-size: 40px;
+    padding-top: 306px;
+    position: relative;
+}
+
+.grandtitre::before {
+    content: "Hello";
+    position: absolute;
+    margin-top: -306px;
+}
+
+.grandtitre p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 42px;
+}
+
+.grandtitre button {
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.grandtitre button img {
+    align-items: center;
+}
+
+h2 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 527px;
+    margin-left: 39px;
+    width: 100%;
+}
+
+.Design1 {
+    background-color: red;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    padding-left: 22px;
+    padding-top: 22px;
+    box-shadow: 5px 5px 15px #bebebe,
+        -5px -5px 15px #ffffff;
+    width: 377px;
+    height: 361px;
+
+
+}
+
+.Design {
+
+    width: 377px;
+    height: 361px;
+    margin-left: 13px;
+    margin-bottom: 11px;
+    padding-left: 22px;
+    padding-top: 22px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 15px #bebebe,
+        -5px -5px 15px #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.avant_section {
+    text-align: center;
+    margin-right: -10px;
+    font-size: 35px;
+}
+
+.Design a {
+    color: red;
+    text-decoration: none;
+}
+
+.Design .couleur_rouge {
+    color: black;
+    background-color: red;
+    position: absolute;
+    margin-left: -94px;
+    padding: 7px;
+    margin-top: -13px;
+    z-index: 1;
+}
+
+
+
+.Design1 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* section3 */
+
+.section3 {
+    display: flex;
+    margin-top: 85px;
+    margin-left: 250px;
+    width: 100%;
+    justify-content: center;
+    width: 1218px;
+
+
+
+}
+
+.imageAboutme {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 300px);
+    width: 886px;
+    height: 591px;
+}
+
+.imageAboutme .your_images {
+    padding-left: 464px;
+    position: absolute;
+    margin-top: 264px;
+}
+
+.imageAboutme .image4 {
+    margin-left: 155px;
+    margin-top: 2px;
+    border-radius: 14%;
+}
+
+.imageAboutme .image4 img {
+    border-radius: 5%;
+}
+
+.imageAboutme .imagehere {
+    margin-left: 119px;
+}
+
+.descriptionAboutme {
+    width: 606px;
+    height: 302px;
+}
+
+.descriptionAboutme h2 {
+    font-size: 45px;
+}
+
+.descriptionAboutme p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+}
+
+.cv {
+    text-align: center;
+    background-color: red;
+    border-radius: 25px;
+    margin: 10px 23px;
+}
+.cv img{
+    vertical-align:sub;
+}
+/* section4 */
+
+.section4 {
+    display: flex;
+    /* margin-left: 33px; */
+    margin-top: 60px;
+    justify-content: center;
+
+}
+
+.image_competence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    box-shadow: 5px 5px 15px #bebebe,
+        -5px -5px 15px #ffffff;
+    width: 261px;
+    height: 282px;
+}
+
+.image_competence img {
+    margin-top: 38px;
+}
+
+.section5,
+.section9 {
+    display: flex;
+    justify-content: center;
+}
+
+.section5 {}
+
+.card {
+    width: 377px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px #bebebe,
+        -5px -5px 15px #ffffff;
+
+}
+
+.card-image {
+    width: 377px;
+    height: 272px;
+
+}
+
+.card2 img {
+    margin-top: -19px;
+    margin-left: -20px;
+
+}
+
+.card a {
+    color: red;
+    margin: 15px 50px;
+    display: block;
+    padding: 20px 30px;
+    margin-left: -28px;
+}
+
+.card h2 {
+    color: red;
+}
+
+.card p {
+    font-weight: 10;
+}
+
+.card span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin: 76px -954px 0px 858px;
+    padding: 17px 35px;
+    background-color: red;
+    border-radius: 26px;
+    color: white;
+    border: 0px;
+}
+
+.section6_h2 {
+    text-align: center;
+    font-size: 37px;
+}
+
+.section6_ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.section6_ul li {
+    margin: 12px;
+}
+
+
+
+.section6 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px -10px #bebebe,
+        -5px -5px -10px #ffffff;
+
+}
+
+.section7 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.gride {
+    box-shadow: 5px 5px 15px #bebebe,
+        -5px -5px 15px #ffffff;
+    width: 390px;
+    height: 643px;
+    margin-top: 20px;
+
+}
+
+.gride h2 {
+    margin-bottom: 10px;
+}
+
+.section8_h2 {
+    text-align: center;
+    padding-top: 74px;
+    font-size: 52px;
+    margin-top: 122px;
+}
+
+.section8 {
+    background-color: #F2F6F7;
+    width: 1920px;
+    height: 688px;
+
+
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+
+}
+
+.texte_feedbac {
+    width: 555px;
+    height: 158px;
+    background-color: white;
+    margin: 50px;
+    font-size: 25px;
+}
+
+.texte img {
+    margin-left: -525px;
+    margin-top: 201px;
+}
+
+.avatar {
+    display: flex;
+}
+
+.avatas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar1 {
+    margin-left: 53px;
+    display: flex;
+}
+
+.avatar1 .image_avatar1 {
+    margin-left: -143px;
+    margin-top: -50px;
+}
+
+.avatar2 .image_avatar2 {
+    margin-top: 34px;
+    margin-left: -140px;
+}
+
+.avatar1 .ident {
+    margin-top: -58px;
+    margin-bottom: -12px;
+    margin-left: 12px;
+}
+
+.avatar2 {
+    display: flex;
+    margin-left: -434px;
+}
+
+/* section9 */
+
+.card22 img {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.section9 .card {
+    width: 361px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+}
+
+/* section10 */
+
+
+.section10 {
+    width: 1920px;
+    height: 476px;
+    background-color:#12141E;
+
+}
+
+.section10 .portfolio{
+    display: flex;
+    margin-left: 70px;
+    font-size: 24px;
+    margin-top: 48px;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.section10 .portfolio .port {
+    color: red;
+}
+
+.section10 .portfolio .folio {
+    color:white;
+}
+
+/* lien du fouter */
+
+
+.section10 .nav_home{
+    justify-content: center;
+    width: 100%;
+}
+
+.section10 .nav_home .page{
+    color: white;
+    margin: 30px;
+    border-right:2px  #514971
+    solid;
+}
+
+.section10 img{
+    width: 20%;
+display: block;
+margin: auto;    
+}
